@@ -1,0 +1,12 @@
+.viajesGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 9rem;
+    justify-content: center;
+    padding: 40px;
+}
+.viajes_title {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}

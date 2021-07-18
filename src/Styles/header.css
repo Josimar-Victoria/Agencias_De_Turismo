@@ -1,0 +1,20 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.menu_list {
+    display: flex;
+}
+
+a { 
+    margin: 2rem;
+    color: aqua;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+a:hover {
+    color: beige;
+    text-decoration: overline;
+}
