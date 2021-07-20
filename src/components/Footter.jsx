@@ -5,6 +5,7 @@ import { FaFacebook, FaGithub, FaGooglePlus, FaInstagram, FaLinkedinIn } from "r
 import { Link } from 'react-router-dom';
 
 export const Footter = () => {
+
         return (
             <Footer color="stylish-color-dark" className="page-footer font-small pt-4 mt-4">
                 <Container className="text-left">

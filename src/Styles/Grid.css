@@ -1,4 +1,4 @@
-.viajesGrid{
+.Grid{
     display: grid;
     grid-template-columns: repeat(auto-fill, 230px);
     gap: 9rem;
@@ -9,4 +9,9 @@
     display: flex;
     justify-content: center;
     background-color: black;
+}
+.comentari_container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.384);
 }

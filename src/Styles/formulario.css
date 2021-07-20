@@ -1,0 +1,27 @@
+.Information-content{
+    display: flex;
+    justify-content: center;
+
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 9px;
+    width: 50%;
+    outline: none;
+    border: none;
+    height: 30px;
+}
+.Information-next{
+    display: flex;
+    justify-content: center;
+}
+.Information_buttom{
+    bottom: 3rem;
+    font-size: 1rem;
+}
+.Information_buttom:hover{
+    color: #fff;
+}

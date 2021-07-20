@@ -1,14 +1,17 @@
 import { makeStyles, IconButton } from '@material-ui/core'
-import React from 'react'
+import { useHistory } from 'react-router';
 
 export const ViajesCard = ({viajes}) => {
+    const history = useHistory()
     const classes = useStyles();
+
+
     return(
         <div className={classes.container}>
                 <img className={classes.viajes_img} src={viajes.image} alt={viajes.pais}/>
                 <strong className={classes.viajes_pais} >{viajes.pais}</strong>
                 <p className="viajes_description">{viajes.description}</p>
-                <IconButton className={classes.button_card}>Viajar</IconButton>
+                <IconButton className={classes.button_card}  onClick={()=> history.push("/informacion") }>Viajar</IconButton>
         </div>
     )
 }

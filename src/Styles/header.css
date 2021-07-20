@@ -1,10 +1,38 @@
-a { 
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: center;
+}
+a{
     margin: 2rem;
     color: aqua;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
 
+}
+.logo{
+    width: 70px;
+    
+}
+.iconButton {
+    bottom: 1.2rem
+    
+}
 a:hover {
     color: beige;
     text-decoration: overline;
+}
+@media screen and (min-width: 645px){
+    .number_contact{
+        height: auto;
+    }
 }
