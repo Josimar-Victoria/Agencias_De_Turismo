@@ -6,4 +6,8 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    cursor: pointer;
+}
+.Link_buttom{
+    cursor: pointer;
 }
