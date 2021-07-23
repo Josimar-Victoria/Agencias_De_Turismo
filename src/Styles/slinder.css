@@ -7,7 +7,9 @@
     justify-content: center;
     margin: 0 auto;
     cursor: pointer;
+    opacity: 10;
 }
-.Link_buttom{
-    cursor: pointer;
+.mySwiper img:hover{
+    opacity: 0.9;
+    transition: .2s ;
 }

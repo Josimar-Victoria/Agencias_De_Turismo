@@ -16,7 +16,7 @@ SwiperCore.use([EffectCoverflow,Pagination]);
 export const Slinder = () => {
     return (
     <>
-    <Link to='/informacion' className='Link_buttom'>
+    <Link to='/informacion' className='Link_img'>
     <Swiper 
         effect={'coverflow'} 
         grabCursor={true} 

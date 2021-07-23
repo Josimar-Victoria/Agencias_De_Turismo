@@ -1,0 +1,24 @@
+.detalles_container{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.col {
+    max-width: 400px;
+    margin: 15px;
+    height:auto;
+    height:80%
+}
+.detalles_img{
+    border-radius: 15px;
+}
+.viajes_details{
+    font-size: 1.3rem;
+}
+.first_item{
+    margin-top: 0;
+}
+.buttom_Detalle{
+    display: flex;
+    margin-top: 20px;
+}

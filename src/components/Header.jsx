@@ -23,7 +23,7 @@ export const Header = () => {
                 </IconButton>
                 <ul className="menu_list" >
                     <li><Link className="menu_link" to="/"><GiCommercialAirplane/> Viajes</Link></li> 
-                    <li><Link className="menu_link" to="/about"><BiHotel/>Hoteles</Link></li> 
+                    <li><Link  className="menu_link" to="/about"><BiHotel/>Hoteles</Link></li> 
                     <li><Link className="menu_link" to="#">Servicios</Link></li> 
                     <li><Link className="menu_link" to="#">Contact</Link></li> 
                 </ul>
